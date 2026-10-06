@@ -1,0 +1,112 @@
+
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+
+
+.cabecalho {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h1 {
+    font-size: 35px;
+}
+
+.cabecalho h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: white;
+
+    border: 1px solid #bbbbbb;
+}
+
+.conteudo h2 {
+    color: #333333;
+    font-size: 27px;
+}
+
+.conteudo h3 {
+    color: #444444;
+}
+
+.conteudo p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.conteudo hr {
+    border: 0;
+    border-top: 1px solid #999999;
+}
+
+
+.conteudo ul,
+.conteudo ol {
+    line-height: 2;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    border: 1px solid #222222;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #999999;
+}
+
+table tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+.conteudo a {
+    color: #0000ee;
+}
+
+.conteudo a:visited {
+    color: #551a8b;
+}
+
+
+.rodape {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
